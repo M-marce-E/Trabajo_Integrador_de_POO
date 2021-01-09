@@ -1,0 +1,16 @@
+Comandos disponibles:
+=====================
+
+AUTOMÁTICO [nombre del archivo, incluyendo extensión]: Toma órdenes para el robot desde un archivo
+EFECTOR [1 : abrir / 0 : cerrar] [velocidad mm/s]: Abre o cierra la pinza a la velocidad que se indique
+GRAFICAR: Muestra gráfica de los sucesivos estados del robot
+GUARDAR [nombre del archivo, incluyendo extensión]: Guarda el reporte de órdenes del robot en un archivo de texto
+HELP  (ó ?): Muestra los comandos disponibles
+HELP [comando]: Muestra información el comando específico
+HOMING: Lleva al robot de nuevo a sus posiciones iniciales
+MOVER [nro articulación 1 a 3] [ángulo grados] [velocidad mm/s]: Mueve una articulación determinada del robot
+QUIT  (ó EXIT): Cierra la aplicación
+REPORTE: Muestra un reporte de las acciones realizadas por el robot
+RPC: Operar el robot remotamente mediante XML-RPC
+
+Las instrucciones pueden ser ingresadas tanto en mayúsculas como en minúsculas
